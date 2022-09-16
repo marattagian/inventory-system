@@ -3,6 +3,7 @@ module github.com/marattagian/inventory-system
 go 1.18
 
 require (
+	github.com/jmoiron/sqlx v1.3.5 // indirect
 	go.uber.org/atomic v1.6.0 // indirect
 	go.uber.org/dig v1.15.0 // indirect
 	go.uber.org/fx v1.18.1 // indirect
