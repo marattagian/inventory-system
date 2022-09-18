@@ -8,8 +8,8 @@ import (
 )
 
 // Service is the buisness logic of the application
-//
-// go:generate mockery --name=Service --output=service --inpackage
+
+//go:generate mockery --name=Service --output=service --inpackage
 type Service interface {
   RegisterUser(ctx context.Context, email, name, password string) error
   LoginUser(ctx context.Context, email, password string) (*models.User, error)
