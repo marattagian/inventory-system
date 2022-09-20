@@ -34,3 +34,7 @@ create table user_roles (
   foreign key (user_id) references users (id),
   foreign key (role_id) references roles (id)
 );
+
+insert into roles (id, name) values (1, "admin");
+insert into roles (id, name) values (2, "seller");
+insert into roles (id, name) values (3, "customer");
